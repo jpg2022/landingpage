@@ -1,0 +1,48 @@
+/*Removes dots from list itesm */
+
+.header{
+    background-color: #1F2937;
+}
+.header1{
+    
+    align-items: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.header2{
+    display: flex;
+    justify-content: center;
+}
+.header-text{
+    flex-direction: column;
+    color: white;
+    display: flex;
+    width: 180px;
+
+}
+.header-text-top{
+    font-size: 48px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight:900;
+    color: tomato;
+    order: -1;
+    padding: 0px 115px;
+    align-self: center;
+
+   
+
+}
+
+ul{
+    list-style:none;
+    display: flex;
+    gap: 16px;
+    order: 2;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0px 50px;
+}
